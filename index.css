@@ -5,6 +5,18 @@ body {
     text-align: center;
 }
 
-p {
-    color: white;
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: red
+}
+
+a:active {
+    color: blue
 }
