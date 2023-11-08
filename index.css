@@ -1,0 +1,45 @@
+body {
+    background-color: blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+dt{
+    color: darkblue;
+    font-weight: 700;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.70em;
+    font-style: italic;
+}
+
+h1 {
+    background-color: blue;
+    color: gold;
+    font-family: Georgia, serif;
+    line-height: 200%;
+}
+
+h3{
+    color: #1976d2;
+    font-family: Georgia, serif;
+}
+
+nav {
+    font-weight: 700;
+    background-color: skyblue;
+}
+
+.resort {
+    color: #1976d2;
+    font-size: 1.2em;
+}
+
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-indent: .1em;
+}
