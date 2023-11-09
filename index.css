@@ -21,17 +21,17 @@ h1
 }
 h1 span
 {
-    transition: 0.1s;
+    transition: 0.5s;
 }
 h1:hover span
 {
     color: #fff;
-    text-shadow: 0 0 10px #fff,
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
                  0 0 20px #fff,
                  0 0 40px #fff,
                  0 0 80px #fff,
-                 0 0 120px #fff,
-                 0 0 160px #fff;
+                 0 0 100px #fff;
 }
 h3 
 {
@@ -42,17 +42,17 @@ h3
 }
 h3 span
 {
-    transition: 0.1s;
+    transition: 0.5s;
 }
 h3:hover span
 {
     color: #fff;
-    text-shadow: 0 0 10px #fff,
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
                  0 0 20px #fff,
                  0 0 40px #fff,
                  0 0 80px #fff,
-                 0 0 120px #fff,
-                 0 0 160px #fff;
+                 0 0 100px #fff;
 }
 p 
 {
@@ -63,17 +63,17 @@ p
 }
 p span
 {
-    transition: 0.1s;
+    transition: 0.5s;
 }
 p:hover span
 {
     color: #fff;
-    text-shadow: 0 0 10px red,
+    text-shadow: 0 0 5px red,
+                 0 0 10px red,
                  0 0 20px red,
                  0 0 40px red,
                  0 0 80px red,
-                 0 0 120px red,
-                 0 0 160px red;
+                 0 0 100px red;
 }
 a:link {
     color: gold;
