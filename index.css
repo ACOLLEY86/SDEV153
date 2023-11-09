@@ -21,17 +21,15 @@ h1
 }
 h1 span
 {
-    transition: 0.5s;
+    transition: .5s;
 }
 h1:hover span
 {
     color: #fff;
     text-shadow: 0 0 5px #fff,
                  0 0 10px #fff,
-                 0 0 20px #fff,
-                 0 0 40px #fff,
-                 0 0 80px #fff,
-                 0 0 100px #fff;
+                 0 0 15px #fff,
+                 0 0 20px #fff;
 }
 h3 
 {
@@ -70,10 +68,10 @@ p:hover span
     color: #fff;
     text-shadow: 0 0 5px red,
                  0 0 10px red,
+                 0 0 15px red,
                  0 0 20px red,
-                 0 0 40px red,
-                 0 0 80px red,
-                 0 0 100px red;
+                 0 0 25px red,
+                 0 0 30px red;
 }
 a:link {
     color: gold;
