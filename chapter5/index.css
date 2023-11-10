@@ -1,19 +1,25 @@
 body {
     background-color: gray;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     font-size: x-large;
+    padding: 1em;
+    box-sizing: border-box;
+    cursor: pointer; 
 }
 
 div {
     text-align: left;
 }
 
+nav {
+    padding-top: 1.25em;
+}
+
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
     color: #222;
-    cursor: pointer; 
     text-align: center;
 }
 
@@ -31,4 +37,8 @@ a:hover {
 
 a:active {
     color: blue
+}
+
+a {
+    text-decoration: none;
 }
