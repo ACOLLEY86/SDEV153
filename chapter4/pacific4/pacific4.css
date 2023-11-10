@@ -94,8 +94,6 @@ a:active {
 #wrapper {
     background-color: #FFFFFF;
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
     box-shadow: 5px 5px black;
     min-width: 960px;
     max-width: 2048px;
