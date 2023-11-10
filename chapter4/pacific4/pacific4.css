@@ -4,6 +4,8 @@ body {
     background-repeat: no-repeat;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
+    min-width: 960px;
+    max-width: 2048px;
 }
 
 dt{
@@ -97,8 +99,7 @@ a:active {
     box-shadow: 5px 5px black;
     margin-left: auto;
     margin-right: auto;
-    min-width: 960px;
-    max-width: 2048px;
+
 }
 
 #yurthero {
