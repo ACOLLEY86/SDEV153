@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
     
-    body {
+body {
     background-color: #EAEAEA;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
@@ -24,6 +24,9 @@ footer {
 
 header {
     height: 120px;
+    background-color: #002171;
+    color: white;
+    font-family: Georgia, serif;
 }
 
 header a {
@@ -39,14 +42,10 @@ header a:hover {
 }
 
 h1 {
-    background-color: #002171;
     text-align: center;
-    color: white;
-    font-family: Georgia, serif;
     font-size: 3em;
     letter-spacing: 0.25em;
     padding-top: .5em;
-    padding-bottom: .86em;
 }
 
 h2 {

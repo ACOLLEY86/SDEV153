@@ -17,25 +17,27 @@ footer{
     font-style: italic;
     padding: 1em;
 }
-
-h1 {
+header {
     background-image: url(images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 72px;
     background-position: right;
-    text-align: center;
+    background-repeat: no-repeat;
+    height: 72px;
+    background-color: #002171;
     color: white;
     font-family: Georgia, serif;
-    padding-top: .5em;
-    padding-bottom: .5em;
 }
 
-h2{
+h1 {
+    text-align: center;
+    padding-top: .5em;
+}
+
+h2 {
     color: #1976d2;
     font-family: Georgia, serif;
 }
 
-h3{
+h3 {
     font-family: Georgia, serif;
 }
 
@@ -53,12 +55,14 @@ main {
 }
 
 nav {
-    padding-bottom: 1.25em;
+    padding-top: .5em;
+    padding-right: .5em;
+    padding-bottom: .5em;
     font-weight: bold;
     text-align: center;
 }
 
-nav a{
+nav a {
     text-decoration: none;
 }
 

@@ -6,7 +6,7 @@ body {
 
 dt{
     color: darkblue;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 footer{
@@ -15,10 +15,13 @@ footer{
     font-style: italic;
 }
 
-h1 {
+header {
     background-color: #002171;
     color: white;
     font-family: Georgia, serif;
+}
+
+h1 {
     line-height: 200%;
 }
 
@@ -41,5 +44,4 @@ nav {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
-    text-indent: .1em;
 }

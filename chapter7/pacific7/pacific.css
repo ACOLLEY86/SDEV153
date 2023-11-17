@@ -27,7 +27,10 @@ footer {
 }
 
 header {
+    background-color: #002171;
+    color: white;
     padding: 1em;
+    font-family: Georgia, serif;
 }
 
 header a {
@@ -43,10 +46,7 @@ header a:hover {
 }
 
 h1 {
-    background-color: #002171;
     text-align: center;
-    color: white;
-    font-family: Georgia, serif;
     font-size: 1.5em;
 }
 
@@ -114,7 +114,7 @@ nav ul {
     flex-direction: column;
     list-style: none;
     margin: 0;
-    padding-left: 0em;
+    padding-left: 0;
 }
 
 .resort {
@@ -148,9 +148,6 @@ section {
 }
 
 @media only screen and (min-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
     h1 {
         font-size: 2em;
         letter-spacing: .25em;
@@ -172,7 +169,6 @@ section {
     }
     #flow {
         display: flex;
-        flex-wrap: nowrap;
         flex-direction: row;
     }
     #mobile {
@@ -195,8 +191,7 @@ section {
         padding-right: 10%;
     }
     #wrapper {
-        margin-left: auto;
-        margin-right: auto;
+        margin: auto;
         width: 80%;
     }
 }
