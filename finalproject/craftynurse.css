@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    background-color: #90c7E3;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 0;
+}
+
+#desktop {
+    display: none;
+}
+
+dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 0.70em;
+    font-style: italic;
+    padding: 1em;
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #002171;
+    color: white;
+    padding: 1em;
+    font-family: Georgia, serif;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link,a:visited {
+    color:#FFFFFF
+}
+
+header a:hover {
+    color: #90c7e3;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #1976d2;
+    font-family: Georgia, serif;
+}
+
+h3 {
+    font-family: Georgia, serif;
+}
+
+#homehero {
+    height: 300px;
+    background-image: url(images/coast.jpg);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+#mobile {
+    display: inline;
+}
+
+.navbar li a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.navbar ul ul li {
+    display: block;
+}
+    
+.navbar li:hover ul {
+    display: block;
+}
+
+.navbar ul ul li a:hover {
+    background-color: #555;
+}
+
+.navbar li {
+    display: inline-block;
+    background-color: #333;
+}
+
+.navbar ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    position: relative;
+    z-index: 999;
+}    
+
+.resort {
+    color: #1976d2;
+    font-size: 1.2em;
+}
+
+section {
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url(images/trail.jpg);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
+#wrapper {
+    min-width: 960px;
+    max-width: 2048px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 2em;
+        letter-spacing: .25em;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+    nav li {
+        width: 12em;
+        border-bottom: none;
+    }
+    section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    #mobile {
+        display: none;
+    }
+    #desktop {
+        display: inline;
+    }
+    #homehero, #yurthero, #trailhero {
+        background-size: 100% 100%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-image: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    }
+    nav ul {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #wrapper {
+        margin: auto;
+        width: 80%;
+    }
+}
