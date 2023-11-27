@@ -155,6 +155,7 @@ label {
     font-size: 18px;
     color: #333;
     background-color: #3498db;
+    text-align: center;
 }
 
 input, select, textarea {
