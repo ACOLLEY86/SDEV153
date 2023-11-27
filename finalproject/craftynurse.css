@@ -239,7 +239,7 @@ main {
 
 @media only screen and (max-width: 768px) {
     header {
-        font-size: 2em;
+        font-size: 1em;
     }
     nav {
         padding-left: 5%;
