@@ -250,11 +250,10 @@ main {
     nav ul {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-around;
     }
     nav li {
-        width: 100%;
         border-bottom: none;
     }
     #flow {
