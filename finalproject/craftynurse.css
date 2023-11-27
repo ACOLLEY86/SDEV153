@@ -242,6 +242,12 @@ nav {
     .navbar {
         width: 100%;
     }
+    .navbar li a {
+        color: white;
+        display: block;
+        padding: 10px 2.5px;
+        text-decoration: none;
+    }
     nav ul {
         display: flex;
         flex-direction: row;
