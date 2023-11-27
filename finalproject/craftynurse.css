@@ -73,7 +73,7 @@ header a:link,a:visited {
 }
 
 header a:hover {
-    color: #90c7e3;
+    color: #555;
 }
 
 h1 {
@@ -82,8 +82,10 @@ h1 {
 }
 
 h2 {
-    color: #1976d2;
+    color: #333;
     font-family: Georgia, serif;
+    text-align: center;
+    font-size: 50px;
 }
 
 h3 {
@@ -132,6 +134,10 @@ main {
     background-color: #333;
 }
 
+.navbar li:hover {
+    background-color: #555;
+}
+
 .navbar ul {
     text-align: center;
     list-style-type: none;
@@ -146,7 +152,7 @@ main {
 }    
 
 .resort {
-    color: #1976d2;
+    color: #333;
     font-size: 1.2em;
 }
 
