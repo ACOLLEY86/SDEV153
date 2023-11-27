@@ -38,23 +38,24 @@
         <div class="container content">
             <main>
                 <h2>Get A Quote</h2>
-                <p><span class="resort">PARAGRAPH SPAN</span>
-                </p>
-                <ul>
-                    <li>LIST ITEM 1</li>
-                    <li>LIST ITEM 2</li>
-                    <li>LIST ITEM 3</li>
-                    <li>LIST ITEM 4</li>
-                    <li>LIST ITEM 5</li>
-                </ul>
-                <div>
-                    <span class="resort">Crafty Nurse</span><br /> 
-                    Street Address<br />
-                    City, State Zip<br />
-                    <br />
-                    <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
-                    <span id="desktop">888-555-5555</span>
-                </div>
+                <form id="quoteForm">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="product">Product Type:</label>
+                    <select id="product" name="product" required>
+                        <option value="badge">Badge Reels</option>
+                        <option value="mugs">Mugs and Cups</option>
+                        <option value="clothing">Clothing and Hats</option>
+                        <option value="embroidery">Custom Embroidery</option>
+                        <option value="stickers">Vinyl Stickers</option>
+                    </select>
+                    <label for="message">What specific item would you like customized?</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="submit">Custom orders may take 5 business days to ship.</label>
+                    <button type="submit">Submit Request</button>
+                </form>
             </main>
         </div>
     </body>

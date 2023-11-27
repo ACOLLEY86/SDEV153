@@ -37,24 +37,26 @@
         </nav>
         <div class="container content">
             <main>
-                <h2>Reviews</h2>
-                <p><span class="resort">PARAGRAPH SPAN</span>
-                </p>
-                <ul>
-                    <li>LIST ITEM 1</li>
-                    <li>LIST ITEM 2</li>
-                    <li>LIST ITEM 3</li>
-                    <li>LIST ITEM 4</li>
-                    <li>LIST ITEM 5</li>
-                </ul>
-                <div>
-                    <span class="resort">Crafty Nurse</span><br /> 
-                    Street Address<br />
-                    City, State Zip<br />
-                    <br />
-                    <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
-                    <span id="desktop">888-555-5555</span>
+                <h2>Leave a Review</h2>
+                <form id="reviewForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating" required>
+                        <option value="5">5 stars</option>
+                        <option value="4">4 stars</option>
+                        <option value="3">3 stars</option>
+                        <option value="2">2 stars</option>
+                        <option value="1">1 star</option>
+                    </select>
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <button type="submit">Submit Review</button>
+                </form>
+                <h2>Customer Reviews</h2>
+                <div class="reviews">
                 </div>
+            <script src="script.js"></script>
             </main>
         </div>
     </body>
