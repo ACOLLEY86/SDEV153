@@ -174,7 +174,7 @@ main {
 .navbar li a {
     color: white;
     display: block;
-    padding: 10px 20px;
+
     text-decoration: none;
 }
 
@@ -212,7 +212,7 @@ main {
     padding: 0;
 }
 
-.navbar {
+nav {
     background-color: #333;
     position: relative;
     z-index: 999;
@@ -244,8 +244,8 @@ main {
         margin-top: -10px;
     }
     nav {
-        padding-left: 5%;
-        padding-right: 5%;
+        position: relative;
+        z-index: 999;
     }
     nav ul {
         display: flex;
@@ -255,6 +255,7 @@ main {
     }
     nav li {
         border-bottom: none;
+        padding: 5px;
     }
     #flow {
         display: flex;
@@ -277,6 +278,9 @@ main {
     nav ul {
         padding-left: 5%;
         padding-right: 5%;
+    }
+    nav ul li {
+        padding: 10px 30px;
     }
     body {
         margin: auto;
