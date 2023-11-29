@@ -138,6 +138,27 @@ section {
     padding-right: .5em;
 }
 
+.shop {
+    margin: 1em;
+    background-color: #f4f4f4;
+}
+
+.shop form {
+    clear: right;
+}
+
+.shop img {
+    float: right;
+    padding: 1em;
+}
+
+#shophero {
+    height: 300px;
+    background-image: url(images/psunset.jpg);
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
+
 table {
     border-collapse: collapse;
     width: 90%;
@@ -233,7 +254,7 @@ form { display: flex;
     #desktop {
         display: inline;
     }
-    #homehero, #yurthero, #trailhero, #reshero {
+    #homehero, #yurthero, #trailhero, #reshero, #shophero {
         background-size: 100% 100%;
     }
     #mySubmit {
