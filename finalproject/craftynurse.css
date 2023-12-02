@@ -9,6 +9,33 @@ body {
     padding: 0;
 }
 
+.about-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image-container p {
+    font-size: larger;
+    color: #fff;
+    background-color: #333;
+}
+
+.about-image-container a {
+    font-size: large;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+}
+
+.about-image-container a:link,a:visited {
+    color:#FFFFFF
+}
+
+.about-image-container a:hover {
+    color: #90c7e3;
+}
+
 button {
     background-color: #3498db;
     color: #fff;
@@ -104,6 +131,7 @@ h2 {
 
 .image-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 20px 0;
@@ -230,6 +258,15 @@ nav {
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 15px;
+}
+
+.thank-you-message {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 @media only screen and (max-width: 600px) {

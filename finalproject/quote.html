@@ -13,14 +13,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="about.html">About Us</a>
-                    <ul>
-                        <li><a href="workspace.html">Our Workspace</a></li>
-                        <li><a href="makers.html">Our Makers</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
+                <li><a href="about.html">About Us</a></li>
                 <li>
                     <a href="products.html">Custom Products</a>
                     <ul>
@@ -56,10 +49,26 @@
                     <label for="submit">Custom orders may take 5 business days to ship.</label>
                     <button type="submit">Submit Request</button>
                 </form>
+                <div class="thank-you-message" style="display: none;">
+                    <p>Thank you for requesting a quote with Crafty Nurse! We will be reaching out to you within 1 to 2 business days.</p>
+                </div>
             </main>
         </div>
-    </body>
     <footer class="footer">
         Copyright &copy; 2023 Crafty Nurse<br />
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const quoteForm = document.getElementById("quoteForm");
+            const thankYouMessage = document.querySelector(".thank-you-message");
+    
+            quoteForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+                // Save this space for future server handling info
+                thankYouMessage.style.display = "block";
+                quoteForm.reset();
+            });
+        });
+    </script>
+    </body>
 </html>

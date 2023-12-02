@@ -13,14 +13,7 @@
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="about.html">About Us</a>
-                    <ul>
-                        <li><a href="workspace.html">Our Workspace</a></li>
-                        <li><a href="makers.html">Our Makers</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </li>
+                <li><a href="about.html">About Us</a></li>
                 <li>
                     <a href="products.html">Custom Products</a>
                     <ul>
@@ -56,7 +49,24 @@
                 <h2>Customer Reviews</h2>
                 <div class="reviews">
                 </div>
-            <script src="script.js"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                const reviewForm = document.getElementById("reviewForm");
+                const reviewsContainer = document.querySelector(".reviews");
+                reviewForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const name = document.getElementById("name").value;
+                const rating = document.getElementById("rating").value;
+                const comment = document.getElementById("comment").value;
+                const reviewElement = document.createElement("div");
+                reviewElement.classList.add("review");
+                reviewElement.innerHTML = `
+                    <p><strong>${name}</strong></p>
+                    <p>Rating: ${rating} stars</p>
+                    <p>${comment}</p>`;
+                reviewsContainer.appendChild(reviewElement);
+                reviewForm.reset(); });});
+            </script>
             </main>
         </div>
     </body>
