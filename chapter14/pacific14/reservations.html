@@ -5,6 +5,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="pacific.css">
+        <script>
+            function validatePhoneNumber() {
+                var phoneNumber = document.getElementById("myPhone").value;
+                var phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+    
+                if (!phoneRegex.test(phoneNumber)) {
+                    alert("Please enter a valid phone number in the format xxx-xxx-xxxx.");
+                    return false;
+                }
+    
+                return true;
+            }
+    
+                function validateForm() {
+                return validatePhoneNumber();
+            }
+        </script>
     </head>
     <body>  
         <header>
