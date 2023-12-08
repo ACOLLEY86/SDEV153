@@ -70,6 +70,17 @@ header {
 
 }
 
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logo-link img {
+    margin-right: 10px;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -267,6 +278,37 @@ nav {
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    border: 2px solid black;
+    margin: auto;
+}
+
+td {
+    text-align: center;
+    border: 2px solid black;
+}
+
+td.text {
+    text-align: left;
+}
+
+tr {
+    background-color: #3498db;
+    border: 2px solid black;
+}
+
+th {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px;
+    border: 2px solid black;
 }
 
 @media only screen and (max-width: 600px) {
